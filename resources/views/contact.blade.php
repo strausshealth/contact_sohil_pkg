@@ -7,12 +7,15 @@
     <h1>Contact Us</h1>
     <form method="POST" action="/contact">
         @csrf
-        <label for="name">Enter Name:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
 
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
+        
         <button type="submit">Submit</button>
     </form>
 </body>

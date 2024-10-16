@@ -10,7 +10,7 @@
         <label for="name">Please Enter Name:</label>
         <input type="text" id="name" name="name" required><br><br>
         
-        <label for="email">Please Enter Email:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
 
         <button type="submit">Submit</button>

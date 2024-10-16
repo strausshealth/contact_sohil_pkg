@@ -7,7 +7,7 @@
     <h1>Contact Us</h1>
     <form method="POST" action="/contact">
         @csrf
-        <label for="name">Please Enter Name:</label>
+        <label for="name">Enter Name:</label>
         <input type="text" id="name" name="name" required><br><br>
         
         <label for="email">Email:</label>

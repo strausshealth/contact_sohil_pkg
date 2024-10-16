@@ -1,0 +1,25 @@
+{
+    "name": "strauss/contact",
+    "description": "Contact management package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Strauss\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maleksohil",
+            "email": "42293783+maleksohil@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Strauss\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
